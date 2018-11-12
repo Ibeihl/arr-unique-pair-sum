@@ -24,7 +24,7 @@ const uniquePairs = (arr, k) => {
             answerArr.push(sortedPairs[l])
         }
     }
-    return answerArr;
+    return answerArr.length;
 }
 
 const testArray = [ 1, 0, 9, 4, 6, 5, 7 ];
